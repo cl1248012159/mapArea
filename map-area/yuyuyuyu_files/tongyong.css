@@ -1,0 +1,104 @@
+﻿.xuyao {
+    color: #666;
+    line-height: 26px;
+    margin: 0 auto;
+}
+.shuoming{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.shuoming p{
+    line-height:26px;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 960px;
+}
+.smleft{
+float:left;
+}
+.clear{
+clear:both 
+}
+.middlead {
+clear: both;
+overflow: hidden;
+width: 1220px;
+height: 260px;
+}
+.cbody {
+margin: 0 auto;
+}
+.ggyjcright {
+width: 950px;
+float: left;
+height: 260px;
+overflow: hidden;
+display: inline;
+background: #FFFFFF;
+}
+.middlead .ggyjc {
+margin-top: 3px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 14px;
+padding-bottom: 6px;
+color: #e95089;
+background-image: url(http://p.yubaibai.com.cn/template/1111/images/ggyjc.gif);
+background-repeat: no-repeat;
+background-position: 0 -4px;
+}
+
+.middlead .ad450 {
+	border-bottom:1px solid #E95080;
+}
+.middlead .ad450 ul li {
+display: inline;
+float: left;
+border: 1px solid #ddd;
+width: 455px;
+height: 60px;
+overflow: hidden;
+background-color: #C9C9C9;
+margin: 3px 1px 3px 9px;
+padding: 1px;
+}
+.middlead .ad450, .middlead .ad950 {
+	border-right:1px solid #E95080;
+	border-left:1px solid #E95080;
+	width:948px;
+	overflow:hidden;
+}
+.middlead .ad450 ul, .middlead .ad950 ul {
+	margin:0;
+}
+.middlead .ad450 ul li {
+display: inline;
+float: left;
+border: 1px solid #ddd;
+width: 455px;
+height: 60px;
+overflow: hidden;
+background-color: #C9C9C9;
+margin: 3px 1px 3px 9px;
+padding: 1px;
+}
+.ggyjcright {
+	width:950px;
+	float:left;
+        height:260px;
+	overflow:hidden;
+	display:inline;
+	background:#FFFFFF;
+}
+.ggyjcrightleft {
+	width:250px;
+	float:right;
+	overflow:hidden;
+	display:inline;
+	margin-left:10px;
+	background:#FFFFFF;
+	height:260px;
+}

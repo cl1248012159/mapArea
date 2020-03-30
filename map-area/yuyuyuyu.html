@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta content="IE=7.0000" http-equiv="X-UA-Compatible">
+   
+    <link href="./yuyuyuyu_files/all-base.css" rel="stylesheet" type="text/css">
+    <link href="./yuyuyuyu_files/publicstyle.css" rel="stylesheet" type="text/css">
+    <script src="./yuyuyuyu_files/hm.js"></script><script src="./yuyuyuyu_files/hm(1).js"></script><script type="text/javascript" src="./yuyuyuyu_files/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./yuyuyuyu_files/jq-public.js"></script>
+    <link rel="stylesheet" type="text/css" href="./yuyuyuyu_files/tongyong.css">
+    <script type="text/javascript" src="./yuyuyuyu_files/jquery_003.js"></script>
+    <script type="text/javascript" src="./yuyuyuyu_files/jquery_002.js"></script>
+    <link rel="stylesheet" type="text/css" href="./yuyuyuyu_files/default.css">
+    <script type="text/javascript" src="./yuyuyuyu_files/jquery.js"></script>
+    <script type="text/javascript" src="./yuyuyuyu_files/iframeTools.js"></script>
+    <link rel="stylesheet" type="text/css" href="./yuyuyuyu_files/common.css">
+    <script type="text/javascript" src="./yuyuyuyu_files/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="./yuyuyuyu_files/jquery-ui.css">
+    <script type="text/javascript" src="./yuyuyuyu_files/jquery-ui.js"></script>
+    <script src="./yuyuyuyu_files/pagearea.js"></script>
+    <link rel="stylesheet" type="text/css" href="./yuyuyuyu_files/common1.css">
+    <script type="text/javascript">function copy_clip(txt) {
+        if (window.clipboardData) {
+          window.clipboardData.clearData();
+          window.clipboardData.setData("Text", txt);
+        } else if (navigator.userAgent.indexOf("Opera") != -1) {
+          window.location = txt;
+        } else if (window.netscape) {
+          try {
+            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+          } catch(e) {
+            alert("您的firefox安全限制限制您进行剪贴板操作，请在新窗口的地址栏里输入'about:config'然后找到'signed.applets.codebase_principal_support'设置为true'");
+            return false;
+          }
+          var clip = Components.classes["@mozilla.org/widget/clipboard;1"].createInstance(Components.interfaces.nsIClipboard);
+          if (!clip) return;
+          var trans = Components.classes["@mozilla.org/widget/transferable;1"].createInstance(Components.interfaces.nsITransferable);
+          if (!trans) return;
+          trans.addDataFlavor('text/unicode');
+          var str = new Object();
+          var len = new Object();
+          var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+          var copytext = txt;
+          str.data = copytext;
+          trans.setTransferData("text/unicode", str, copytext.length * 2);
+          var clipid = Components.interfaces.nsIClipboard;
+          if (!clip) return false;
+          clip.setData(trans, null, clipid.kGlobalClipboard);
+        }
+      }
+
+      function getWidth(x) { //根据布局修改宽度  onchange="getWidth(this.value)"
+        var getW = document.getElementById("codeArea");
+        getW.style.width = x + "px";
+        $.codeData(); //同时修改代码框内容
+      }</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?00ebedef547eae3a87f8d9fc09c5c225";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="./yuyuyuyu_files/ds.js"></script>
+</head>
+<body style="CURSOR: auto" id="pageArea" class=" pularge"><div class="" style="display: none; position: absolute;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;"></div><a class="aui_close" href="javascript:/*artDialog*/;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+﻿
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?57593952baec85cabce193f1c0d18d82";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="./yuyuyuyu_files/style.css">    <div class="" style="display: none; position: absolute;">
+      <div class="aui_outer">
+        <table class="aui_border">
+          <tbody>
+            <tr>
+              <td class="aui_nw"></td>
+              <td class="aui_n"></td>
+              <td class="aui_ne"></td>
+            </tr>
+            <tr>
+              <td class="aui_w"></td>
+              <td class="aui_c">
+                <div class="aui_inner">
+                  <table class="aui_dialog">
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="aui_header">
+                          <div class="aui_titleBar">
+                            <div style="cursor: move;" class="aui_title"></div>
+                            <a class="aui_close" href="javascript:/*artDialog*/;">×</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+
+                        <td style="display: none;" class="aui_icon">
+                          <div style="background: transparent none repeat scroll 0% 0%;" class="aui_iconBg"></div>
+                        </td>
+                        <td style="width: auto; height: auto;" class="aui_main">
+                          <div style="padding: 20px 25px;" class="aui_content"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="aui_footer">
+                          <div style="display: none;" class="aui_buttons"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+              <td class="aui_e"></td>
+            </tr>
+            <tr>
+              <td class="aui_sw"></td>
+              <td class="aui_s"></td>
+              <td style="cursor: se-resize;" class="aui_se"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="display: none; position: absolute; " class="">
+      <div class="aui_outer">
+        <table class="aui_border">
+          <tbody>
+            <tr>
+              <td class="aui_nw"></td>
+              <td class="aui_n"></td>
+              <td class="aui_ne"></td>
+            </tr>
+            <tr>
+              <td class="aui_w"></td>
+              <td class="aui_c">
+                <div class="aui_inner">
+                  <table class="aui_dialog">
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="aui_header">
+                          <div class="aui_titleBar">
+                            <div class="aui_title" style="cursor: move; "></div>
+                            <a class="aui_close" href="javascript:/*artDialog*/;" style="">×</a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="aui_icon" style="display: none; ">
+                          <div class="aui_iconBg" style="background-image: none; background-position: initial initial; background-repeat: initial initial; "></div>
+                        </td>
+                        <td class="aui_main" style="width: auto; height: auto; ">
+                          <div class="aui_content" style="padding: 20px 25px; "></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="aui_footer">
+                          <div class="aui_buttons" style="display: none; "></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+              <td class="aui_e"></td>
+            </tr>
+            <tr>
+              <td class="aui_sw"></td>
+              <td class="aui_s"></td>
+              <td class="aui_se" style="cursor: se-resize; "></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="content">
+      <div class="layout">
+        <div id="siteIndex">
+
+          <div style="width: 950px; height: 650px; " id="editArea" onselectstart="return false" class="sameh">
+            <div style="width: 1920px; background-image: url(https://img.alicdn.com/imgextra/i2/60358248/TB2HiohsFXXXXXDXpXXXXXXXXXX-60358248.jpg); height: 650px; cursor: crosshair; margin-left:-960px; background-position: 0px 0px; background-repeat: no-repeat no-repeat; " class="areaContent sameh" title="拖动鼠标增加热区">
+              <div style="VISIBILITY: hidden" id="hideImg">
+                <img src="./yuyuyuyu_files/TB2HiohsFXXXXXDXpXXXXXXXXXX-60358248.jpg"></div>
+              <div class="ui-widget-content resizable draggable ui-resizable ui-draggable" style="left: 515px; top: 540px; width: 200px; height: 100px;" title="">
+                <div class="ui-hline"></div>
+                <div class="ui-hline bottom"></div>
+                <div class="ui-vline right"></div>
+                <div class="ui-vline"></div>
+                <div class="ui-button-icon-default ui-icon ui-icon-closethick closeBtn" title="删除区域" tabindex="0" style="display: none;"></div>
+                <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div>
+                <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-n"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-e"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-s"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-w"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-ne"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-sw"></div>
+                <div style="z-index: 90;" class="ui-resizable-handle ui-resizable-nw"></div>
+              <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div>
+            </div>
+          </div>
+          <div style="width: 950px; display: none; height: 650px;" id="preview" class="sameh">
+            <div id="copyText" class="areaContent" style="width: 950px; margin-left: -960px; ">
+              <div style="width: 1920px; overflow: hidden; height: 650px; " id="codeArea" class="codeArea sameh">
+                <img src="./yuyuyuyu_files/TB2HiohsFXXXXXDXpXXXXXXXXXX-60358248.jpg" usemap="#map42206729" border="0">
+                <map id="map" name="map42206729"></map>
+              </div>
+            </div>
+          </div>
+          <div style="DISPLAY: none" id="coding">
+            <button style="WIDTH: 120px; HEIGHT: 35px; CURSOR: pointer" id="copyBtn" onclick="copy_clip(document.getElementById(&#39;copycode&#39;).value);alert(&#39;恭喜，复制成功！&#39;);">复制代码</button>
+            <div id="codTip">（如点复制代码复制不到，可在代码框里ctrl+A全选再ctrl+C复制）</div>
+            <textarea id="copycode" class="xml">&lt;div style="width: 1920px; overflow: hidden; height: 650px; " id="codeArea" class="codeArea sameh"&gt;
+                &lt;img src="https://img.alicdn.com/imgextra/i2/60358248/TB2HiohsFXXXXXDXpXXXXXXXXXX-60358248.jpg" usemap="#map42206729" border="0"&gt;
+                &lt;map id="map" name="map42206729"&gt;&lt;area target="_blank" shape="rect" coords="515,540,715,640" title="鼠标经过1显示内容" href="https://mofeiyu.taobao.com"&gt;&lt;/map&gt;
+			
+              &lt;/div&gt;</textarea></div>
+        </div>
+      </div>
+    </div>
+    <div style="DISPLAY: none" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable" role="dialog" tabindex="-1" aria-labelledby="ui-id-1" aria-describedby="dialogArea">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-1" class="ui-dialog-title">&nbsp;</span>
+        <button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" title="关闭窗口" role="button">
+          <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+          <span class="ui-button-text">关闭窗口</span></button>
+      </div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
+            <span class="ui-button-text">保存</span></button>
+          <button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
+            <span class="ui-button-text">关闭</span></button>
+        </div>
+      </div>
+    </div>
+    <div style="DISPLAY: none" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable" role="dialog" tabindex="-1" aria-labelledby="ui-id-2" aria-describedby="dialogPic">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-2" class="ui-dialog-title">底图图片设置</span>
+        <button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" title="close" role="button">
+          <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+          <span class="ui-button-text">close</span></button>
+      </div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
+            <span class="ui-button-text">保存</span></button>
+          <button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
+            <span class="ui-button-text">关闭</span></button>
+        </div>
+      </div>
+    </div>
+    <div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial; "></div>
+    <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable" style="display: none; " tabindex="-1" role="dialog" aria-describedby="dialogArea" aria-labelledby="ui-id-1">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-1" class="ui-dialog-title">&nbsp;</span>
+        <button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="关闭窗口">
+          <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+          <span class="ui-button-text">关闭窗口</span></button>
+      </div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="ui-button-text">保存</span></button>
+          <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="ui-button-text">删除热区</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable" style="height: auto; width: 500px; top: 374px; left: 697px; display: none; " tabindex="-1" role="dialog" aria-describedby="dialogPic" aria-labelledby="ui-id-2">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-2" class="ui-dialog-title">底图图片设置</span>
+        <button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close">
+          <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+          <span class="ui-button-text">close</span></button>
+      </div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="ui-button-text">保存</span></button>
+          <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+            <span class="ui-button-text">关闭</span></button>
+        </div>
+      </div>
+    </div>
+    <div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255) none repeat scroll 0% 0%;"></div>
+    <div aria-labelledby="ui-id-1" aria-describedby="dialogArea" role="dialog" tabindex="-1" style="display: none;" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span class="ui-dialog-title" id="ui-id-1">&nbsp;</span>
+        <button title="关闭窗口" aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close">
+          <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+          <span class="ui-button-text">关闭窗口</span></button>
+      </div>
+      
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button">
+            <span class="ui-button-text">保存</span></button>
+          <button aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button">
+            <span class="ui-button-text">删除热区</span></button>
+        </div>
+      </div>
+    </div>
+    <div aria-labelledby="ui-id-2" aria-describedby="dialogPic" role="dialog" tabindex="-1" style="display: none;" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span class="ui-dialog-title" id="ui-id-2">底图图片设置</span>
+        <button title="close" aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close">
+          <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+          <span class="ui-button-text">close</span></button>
+      </div>
+      
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button">
+            <span class="ui-button-text">保存</span></button>
+          <button aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" type="button">
+            <span class="ui-button-text">关闭</span></button>
+        </div>
+      </div>
+    </div>
+<div class="btmbtm">
+          <div id="toolBar">
+            <ul>
+              <li>
+                <select id="editWidth" onchange="getWidth(this.value)">
+                  <option value="950">950布局</option>
+                  <option value="750">750布局</option>
+                  <option value="550">550布局</option>
+                  <option value="190">190布局</option>
+                  <option value="990">990布局(天猫)</option>
+                  <option value="790">790布局(天猫)</option>
+                  <option value="590">590布局(天猫)</option>
+                  <option selected="selected" value="1920">1920布局(全屏)</option></select>
+              </li>
+              <li>
+                <a id="areaPic" class="editBtn" title="底图设置" href="javascript:void(0)">
+                  <span></span>替换底图</a>
+                <!-- <a id="areaAdd" class="editBtn" title="增加热区块" href="javascript:void(0)">
+                  <span></span>新增热区</a> -->
+               </li>
+              <li>
+               </li>
+              <!-- <li class="last">
+                <a id="btn-preview" href="javascript:void(0)">效果预览</a>
+                <a style="DISPLAY: none" id="btn-preview-close" href="javascript:void(0)">关闭预览</a></li> -->
+              <li class="last">
+                <a id="makeCode" href="javascript:void(0)">生成代码</a></li>
+              <!-- <li class="last">
+                <a style="DISPLAY: none" id="addcodebtn-close" href="javascript:void(0)">关闭读取</a>
+                <a id="addcodebtn" href="javascript:void(0)">读取代码</a></li> -->
+            </ul>
+          </div>
+          <div style="DISPLAY: none" id="areaRead">
+            <button style="WIDTH: 120px; HEIGHT: 30px; CURSOR: pointer" id="getRead">确定</button>
+            <textarea style="WIDTH: 950px; HEIGHT: 230px" id="xmlRead" class="xmlRead"></textarea>
+          </div>
+<!-- <div class="shuoming">
+	<div class="smleft">
+		<p><span style="font-size: 14px;font-weight: bold;Color:red;">替换底图：</span>先把图片先上传到淘宝图片空间，再黏贴图片地址</p>
+		<p><span style="font-size: 14px;font-weight: bold;Color:red;">如何删除热区：</span>鼠标移动到方框，点击右上角小正方形。或者直接鼠标左键双击热区，可以删除热区</p>
+		<p><span style="font-size: 14px;font-weight: bold;Color:red;">如何添加多个链接：</span>替换底图后，在图片上，按住鼠标左键，画上多个热区，然后双击热区，先删除默认的字符“#”，再黏贴链接即可实现一图多链接功能。一个热区一个链接。</p>
+		<p><span style="font-size: 14px;font-weight: bold;Color:red;">链接无反应：</span>推荐使用谷歌浏览器、360极速浏览器。ie浏览器兼容性差，搜狗、360安全浏览器请切换到极速模式后再使用！！</p>	
+                <p><span style="font-size: 14px;font-weight: bold;Color:red;">基础版旺铺：</span>如果您是基础版旺铺，请看：<a target="_blank" href="http://www.yubaibai.com.cn/html/tbdpzxjc/zxjc_3733.html">《淘宝基础版旺铺全屏海报代码安装使用方法》</a> 。需要手动修改代码中的位置偏移参数left:-960px，右侧750版改成left:-1060px，左侧750版改成left:-860px。生成的代码安装在750自定义模块中。</p>	
+		<p><span style="font-size: 14px;font-weight: bold;Color:red;">特别提示：</span>切换布局，或者要更换底图，请先删除热区（双击热区，点删除热区），否则生成的代码不能使用。</p>
+		<p><span style="font-size: 14px;font-weight: bold;">必看说明：</span>图片热点可以添加、删除、任意移动位置，双击灰色背景的热点热区，即可修改添加链接</p>
+		<p><span style="font-size: 14px;font-weight: bold;">鱼摆摆图片热点链接工具说明</span>：本小工具初衷为不懂代码的美工、设计师或者淘宝卖家而设计，只需要准备好对应图片，然后在图片上画上热区热点，然后双击热点，加上对应的链接地址。在自动生成html代码后，安装到淘宝，即可点击对应区域，跳转到您指定的网页地址。</p>
+		<p><span style="font-size: 14px;font-weight: bold;">功能说明</span>：可以在一张图片上，添加多个热点链接区域，然后加上不同的网页链接地址，实现单图多链接的功能</p>
+		<p><span style="font-size: 14px;font-weight: bold;">提示1</span>：这个基本上是万用的淘宝装修代码生成工具，您只需要准备好诸如优惠券、海报图、宝贝促销推荐图、宝贝展示图、店招图、收藏本店图、店铺促销活动图、广告图等淘宝装修图片，然后画上热点热区，加上链接，即可自动生成对应的淘宝装修代码，帮你快速装修淘宝店铺。</p>
+		<p><span style="font-size: 14px;font-weight: bold;">提示2：如何添加图片热点热区</span>：按住鼠标左键，滑动鼠标，即可画出一个框架，松开鼠标，即可创建一个热点热区</p>
+		<p><span style="font-size: 14px;font-weight: bold;">提示3：如何给热点添加链接</span>：双击灰色背景的热点热区，在弹出窗口，黏贴对应的网页链接地址，然后店保存</p>
+
+	</div>
+</div> -->
+<div class="clear"></div>
+
+</div>
+
+  
+
+
+
+<div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255);"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable" tabindex="-1" role="dialog" aria-describedby="dialogArea" aria-labelledby="ui-id-1" style="display: none;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="关闭窗口"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">关闭窗口</span></button></div><div style="DISPLAY: block" id="dialogArea" class="ui-dialog-content ui-widget-content">
+        <ul>
+          <li>
+            <span class="label">链接地址:</span>
+            <input id="edit-link" size="30">
+            <label class="tips">鼠标点击区域后跳转的链接</label></li>
+          <li>
+            <span class="label">描述说明:</span>
+            <input id="edit-title" size="30">
+            <label class="tips">鼠标在区域上方时显示的文字</label></li>
+          <li>
+            <div class="edit-input">
+              <span class="label">左边距:</span>
+              <input id="edit-left" size="2">
+              <label class="label">px</label></div>
+            <div class="edit-input">
+              <span class="label">上边距:</span>
+              <input id="edit-top" size="2">
+              <label class="label">px</label></div>
+            <div class="edit-input">
+              <span class="label">宽度:</span>
+              <input id="edit-width" size="2">
+              <label class="label">px</label></div>
+            <div class="edit-input">
+              <span class="label">高度:</span>
+              <input id="edit-height" size="2">
+              <label class="label">px</label></div>
+          </li>
+          <li>
+            <input id="edit-target" checked="checked" type="checkbox">
+            <label class="tips">新窗口打开</label></li>
+        </ul>
+      </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">保存</span></button><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">删除热区</span></button></div></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable" tabindex="-1" role="dialog" aria-describedby="dialogPic" aria-labelledby="ui-id-2" style="display: none;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-2" class="ui-dialog-title">底图图片设置</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">close</span></button></div><div style="display: block; width: auto; min-height: 0px; max-height: none; height: 60px; " id="dialogPic" class="ui-dialog-content ui-widget-content">
+        <ul>
+          <li>
+            <span class="label">底图图片:</span>
+            <input id="editPic" size="30" class="">
+            <label class="tips">输入图片地址</label></li>
+        </ul>
+      </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">保存</span></button><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">关闭</span></button></div></div></div></body></html>
